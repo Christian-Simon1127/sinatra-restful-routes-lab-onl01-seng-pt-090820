@@ -3,7 +3,7 @@ class Recipes < ActiveRecord::Migration
     create_table :recipes do |t|
       t.string = :name 
       t.string = ingredients
-      t.float
+      t.string
     end
   end
 end
